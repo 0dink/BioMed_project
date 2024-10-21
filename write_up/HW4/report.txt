@@ -1,0 +1,118 @@
+For my analysis I chose 10 readers, with each reading for about 25 minutes, in total this gave me a little over 4 hours and 15 minutes of data. 
+
+While the data I have was already "cleaned" there was still some audio artifacts/scratchyness so I cleaned it a little more using spectral gating. 
+I used the noisereduce liberary implementation of spectral gating and I left all of the settings default except for prop_decrease, which I changed from 1.0 to 0.8.
+  
+The results that I got from running my data through the SNR calculation was a little confusing. A higher SNR is supposed to indicate better audio quality than a lower SNR, but 
+as my results show my cleaned audio signals have lower SNR than the the uncleaned one. This is extra strange becuase the cleaned audio samples sound better than the unclean ones.
+I listend to quite a few of the audio signals and in every one I listened to the cleaned one did not contain as many artifacts as the uncleaned one. 
+
+The only reason I can think that may have caused this is that becuase the data was already cleaned further cleaning it removed more important information than artifacts.
+So even though it sounds better, mathmatically it has less valuable information. 
+
+So based on the SNR value it seems that further cleaning that data makes it worse, but I am still suspect of this becuase It sounds better to me. 
+So going forward I will continue to compare the clean and uncleaned signals to get a better understanding of validity of the SNR measurement. 
+
+All Readers:
+    Avg percent diff  : -0.2193819943590358
+    Avg SNR pre clean : 13.745270265243828
+    Avg SNR post clean: 10.90675257481335
+
+Reader: 19
+    Chapter: 198
+        Avg percent diff  : -0.18548261463715854
+        Avg SNR pre clean : 15.970515514353599
+        Avg SNR post clean: 13.01908753882241
+    Chapter: 227
+        Avg percent diff  : -0.17822742782536238
+        Avg SNR pre clean : 15.92421499297071
+        Avg SNR post clean: 13.090069289879539
+Reader: 26
+    Chapter: 495
+        Avg percent diff  : -0.25568019309593665
+        Avg SNR pre clean : 7.701494438060541
+        Avg SNR post clean: 5.73254579141807
+    Chapter: 496
+        Avg percent diff  : -0.2469925690060342
+        Avg SNR pre clean : 8.220542306808145
+        Avg SNR post clean: 6.195334582821352
+Reader: 27
+    Chapter: 123349
+        Avg percent diff  : -0.23029754435096048
+        Avg SNR pre clean : 9.213995469990888
+        Avg SNR post clean: 7.109582838179613
+    Chapter: 124992
+        Avg percent diff  : -0.18000580663784452
+        Avg SNR pre clean : 9.746049616843734
+        Avg SNR post clean: 8.034576221192884
+Reader: 32
+    Chapter: 21625
+        Avg percent diff  : -0.31932609086679586
+        Avg SNR pre clean : 8.817927066908373
+        Avg SNR post clean: 6.028541482129855
+    Chapter: 21631
+        Avg percent diff  : -0.22608640584189796
+        Avg SNR pre clean : 8.706423584788933
+        Avg SNR post clean: 6.737711364806354
+    Chapter: 21634
+        Avg percent diff  : -0.245913658831154
+        Avg SNR pre clean : 9.01155810176859
+        Avg SNR post clean: 6.790263015222125
+    Chapter: 4137
+        Avg percent diff  : -0.18629509333620614
+        Avg SNR pre clean : 18.216119381749337
+        Avg SNR post clean: 14.842200661212223
+Reader: 39
+    Chapter: 121914
+        Avg percent diff  : -0.39037022608185157
+        Avg SNR pre clean : 10.959447293578695
+        Avg SNR post clean: 6.76736051139541
+    Chapter: 121915
+        Avg percent diff  : -0.40155223719666466
+        Avg SNR pre clean : 10.582535600477463
+        Avg SNR post clean: 6.379427204638045
+    Chapter: 121916
+        Avg percent diff  : -0.4211736139925323
+        Avg SNR pre clean : 10.49988922197684
+        Avg SNR post clean: 6.202254589947938
+Reader: 40
+    Chapter: 121026
+        Avg percent diff  : -0.17710996841862853
+        Avg SNR pre clean : 21.301754029486585
+        Avg SNR post clean: 17.540898751749197
+    Chapter: 222
+        Avg percent diff  : -0.17360609295245544
+        Avg SNR pre clean : 18.228578244288645
+        Avg SNR post clean: 15.072591086211583
+Reader: 60
+    Chapter: 121082
+        Avg percent diff  : -0.19830535319390025
+        Avg SNR pre clean : 14.607920803063013
+        Avg SNR post clean: 11.710147386427026
+Reader: 78
+    Chapter: 368
+        Avg percent diff  : -0.22688474532490155
+        Avg SNR pre clean : 16.068916197131376
+        Avg SNR post clean: 12.486601059354014
+    Chapter: 369
+        Avg percent diff  : -0.24414548576710124
+        Avg SNR pre clean : 15.905593875298274
+        Avg SNR post clean: 12.113240419044548
+Reader: 83
+    Chapter: 11691
+        Avg percent diff  : -0.09298991785058465
+        Avg SNR pre clean : 16.482868632633874
+        Avg SNR post clean: 14.946773091070577
+    Chapter: 3054
+        Avg percent diff  : -0.08860175695349826
+        Avg SNR pre clean : 16.2531539679212
+        Avg SNR post clean: 14.813903703643286
+    Chapter: 9960
+        Avg percent diff  : -0.11521024755602949
+        Avg SNR pre clean : 16.24214105040803
+        Avg SNR post clean: 14.379639742622052
+Reader: 87
+    Chapter: 121553
+        Avg percent diff  : -0.2127535922095679
+        Avg SNR pre clean : 14.802116612135782
+        Avg SNR post clean: 11.672643475337045

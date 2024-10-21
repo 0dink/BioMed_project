@@ -90,7 +90,7 @@ def main():
     save_to_dir = r"C:\Computer Science Programs\Fall_2024\EE502_BioMed\project\data\cleaned"
     SAMPLE_RATE = 16000
 
-    x = 10  # Change this to the number of subfolders you want to limit to
+    x = 1  # Change this to the number of subfolders you want to limit to
     files_by_lowest_subfolder = get_filenames_by_lowest_subfolder(root_directory, x)
 
     for lowest_subfolder, files in files_by_lowest_subfolder.items():
@@ -109,7 +109,7 @@ def main():
             audio_signal, _ = sf.read(file)
             
             snr_estimated, snr_estimated_cleaned, denoised_audio_signal = filter_and_snr(audio_signal, SAMPLE_RATE)
-            
+            # print(f"SNR original: {snr_estimated} | SNR cleaned: {snr_estimated_cleaned}")
             snr_data.append([filename, snr_estimated, snr_estimated_cleaned])
 
             denoised_file_paths.append(save_to)
