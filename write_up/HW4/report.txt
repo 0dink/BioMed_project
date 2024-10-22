@@ -1,22 +1,17 @@
 For my analysis I chose 10 readers, with each reading for about 25 minutes, in total this gave me a little over 4 hours and 15 minutes of data. 
 
-While the data I have was already "cleaned" there was still some audio artifacts/scratchyness so I cleaned it a little more using spectral gating. 
-I used the noisereduce liberary implementation of spectral gating and I left all of the settings default except for prop_decrease, which I changed from 1.0 to 0.8.
+While the data I have was already "cleaned" there was still some audio artifacts/scratchiness so I cleaned it a little more using spectral gating. 
+I used the noisereduce library implementation of spectral gating and I left all of the settings default except for prop_decrease, which I changed from 1.0 to 0.8.
   
-The results that I got from running my data through the SNR calculation was a little confusing. A higher SNR is supposed to indicate better audio quality than a lower SNR, but 
-as my results show my cleaned audio signals have lower SNR than the the uncleaned one. This is extra strange becuase the cleaned audio samples sound better than the unclean ones.
-I listend to quite a few of the audio signals and in every one I listened to the cleaned one did not contain as many artifacts as the uncleaned one. 
+Across all trials the average change in SNR between unclean and clean is a decrease of 21%, where the STD dev was 8%. I Believe that the SNR decreased 
+because after the cleaning because the cleaning removed more of the signal than noise. 
 
-The only reason I can think that may have caused this is that becuase the data was already cleaned further cleaning it removed more important information than artifacts.
-So even though it sounds better, mathmatically it has less valuable information. 
-
-So based on the SNR value it seems that further cleaning that data makes it worse, but I am still suspect of this becuase It sounds better to me. 
-So going forward I will continue to compare the clean and uncleaned signals to get a better understanding of validity of the SNR measurement. 
 
 All Readers:
-    Avg percent diff  : -0.2193819943590358
-    Avg SNR pre clean : 13.745270265243828
-    Avg SNR post clean: 10.90675257481335
+    Avg percent diff    : -0.2193819943590358
+    Percent diff STD dev: 0.08805480034689833
+    Avg SNR pre clean   : 13.745270265243828
+    Avg SNR post clean  : 10.90675257481335
 
 Reader: 19
     Chapter: 198
