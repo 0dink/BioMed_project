@@ -1,0 +1,8 @@
+do not know what 2 models that I am using for HW5
+
+1. Support Vector Machines(SVM) using Principal Component Analysis(PCA) THIS ONE
+2. Random Forest using Mel-Frequency Cepstral Coefficients(MFCC)
+3. 2-Dimensional Convolutional Neural Network(CNN) using Spectrograms  	
+4. K-Mean clustering THIS ONES
+
+why do MFCC for DTW 
