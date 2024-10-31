@@ -59,12 +59,12 @@ def extract_mfcc(file_dictionary):
                 mfccs = librosa.feature.mfcc(y=signal, sr=sample_rate, n_mfcc=5)
                 mfcc_dict[reader][chapter].append(mfccs)
 
-    with open("../../data/extracted_features/mfccs/mfccs_dict_5.pickle", "wb") as file:
+    with open("../../../data/extracted_features/mfccs/mfccs_dict_5.pickle", "wb") as file:
         pickle.dump(mfcc_dict, file)
 
 def main():
     root = r"C:\Computer Science Programs\Fall_2024\EE502_BioMed\project\data\cleaned"
-    file_dictionary = get_filenames_by_lowest_subfolder(root,10)
+    file_dictionary = get_filenames_by_lowest_subfolder(root)
     extract_mfcc(file_dictionary)
 
 if __name__=="__main__":
