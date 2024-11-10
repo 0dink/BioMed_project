@@ -1,0 +1,54 @@
+87_f:
+    accuracy: 0.9062
+    precision: 0.8989
+    recall: 1.0
+    F1-score: 0.9467
+    matrix:
+        [7, 9]
+        [0, 80]
+
+4297_f:
+    accuracy: 0.9062
+    precision: 0.9383
+    recall: 0.95
+    F1-score: 0.9441
+    matrix:
+        [11, 5]
+        [4, 76]
+
+7800_f:
+    accuracy: 0.9167
+    precision: 0.9186
+    recall: 0.9875
+    F1-score: 0.9518
+    matrix:
+        [9, 7]
+        [1, 79]
+
+201_m:
+    accuracy: 0.8542
+    precision: 0.9342
+    recall: 0.8875
+    F1-score: 0.9103
+    matrix:
+        [11, 5]
+        [9, 71]
+
+311_m:
+    accuracy: 0.9167
+    precision: 0.9286
+    recall: 0.975
+    F1-score: 0.9512
+    matrix:
+        [10, 6]
+        [2, 78]
+
+3240_m:
+    accuracy: 0.9375
+    precision: 0.9302
+    recall: 1.0
+    F1-score: 0.9639
+    matrix:
+        [10, 6]
+        [0, 80]
+
