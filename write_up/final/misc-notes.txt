@@ -1,3 +1,20 @@
 f score
 true positive 
 false negative
+
+
+4 or 5 pages 
+
+
+explain the features and why they were picked
+
+statistical tests 
+* t-test
+* ANOVA
+* Chi-Square
+* Correlation tests
+
+use statistical tests to compare models
+
+use statistical tests to validate features
+    see relationship between variables

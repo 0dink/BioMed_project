@@ -1,53 +1,65 @@
 87_f:
+    threshold: -441.1679
     accuracy: 0.9062
     precision: 0.8989
     recall: 1.0
     F1-score: 0.9467
+    ROC AUC: 0.9539
     matrix:
         [7, 9]
         [0, 80]
 
 4297_f:
+    threshold: -616.2993
     accuracy: 0.9062
     precision: 0.9383
     recall: 0.95
     F1-score: 0.9441
+    ROC AUC: 0.8977
     matrix:
         [11, 5]
         [4, 76]
 
 7800_f:
+    threshold: -461.7149
     accuracy: 0.9167
     precision: 0.9186
     recall: 0.9875
     F1-score: 0.9518
+    ROC AUC: 0.95
     matrix:
         [9, 7]
         [1, 79]
 
 201_m:
+    threshold: -433.686
     accuracy: 0.8542
     precision: 0.9342
     recall: 0.8875
     F1-score: 0.9103
+    ROC AUC: 0.8586
     matrix:
         [11, 5]
         [9, 71]
 
 311_m:
+    threshold: -466.9787
     accuracy: 0.9167
     precision: 0.9286
     recall: 0.975
     F1-score: 0.9512
+    ROC AUC: 0.9234
     matrix:
         [10, 6]
         [2, 78]
 
 3240_m:
+    threshold: -412.0797
     accuracy: 0.9375
     precision: 0.9302
     recall: 1.0
     F1-score: 0.9639
+    ROC AUC: 0.9297
     matrix:
         [10, 6]
         [0, 80]
