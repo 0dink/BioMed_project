@@ -1,3 +1,11 @@
+summary: 
+    five num sum threshold: -345944.3871 | -383.6976 | -343.9551 | -312.5758 | -281.4575 | mean: -17626.9705
+    five num sum accuracy : 0.4444 | 0.5726 | 0.6880 | 0.7692 | 0.8376 | mean: 0.6803
+    five num sum precision: 0.4355 | 0.5749 | 0.6597 | 0.7193 | 0.7714 | mean: 0.6464
+    five num sum recall   : 0.4211 | 0.5789 | 0.8158 | 0.9298 | 1.0000 | mean: 0.7447
+    five num sum F1-score : 0.4538 | 0.5617 | 0.7252 | 0.7853 | 0.8571 | mean: 0.6823
+    five num sum ROC AUC  : 0.4696 | 0.6467 | 0.8069 | 0.8749 | 0.9664 | mean: 0.7662
+
 1069:
     threshold: -399.0159
     accuracy: 0.547
