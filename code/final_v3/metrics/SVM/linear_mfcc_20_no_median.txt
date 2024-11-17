@@ -1,0 +1,188 @@
+summary: 
+    five num sum accuracy : 0.7607 | 0.8974 | 0.9188 | 0.9594 | 0.9915 | mean: 0.9188
+    five num sum precision: 0.6790 | 0.8802 | 0.9091 | 0.9644 | 1.0000 | mean: 0.9073
+    five num sum recall   : 0.8070 | 0.9254 | 0.9474 | 0.9649 | 1.0000 | mean: 0.9351
+    five num sum F1-score : 0.7971 | 0.8982 | 0.9198 | 0.9592 | 0.9913 | mean: 0.9194
+    five num sum ROC AUC  : 0.9187 | 0.9526 | 0.9795 | 0.9913 | 1.0000 | mean: 0.9704
+
+1069:
+    accuracy: 0.9573
+    precision: 0.9643
+    recall: 0.9474
+    F1-score: 0.9558
+    ROC AUC: 0.9933
+    matrix:
+        [58, 2]
+        [3, 54]
+19:
+    accuracy: 0.9829
+    precision: 0.9825
+    recall: 0.9825
+    F1-score: 0.9825
+    ROC AUC: 0.9994
+    matrix:
+        [59, 1]
+        [1, 56]
+201:
+    accuracy: 0.8547
+    precision: 0.8448
+    recall: 0.8596
+    F1-score: 0.8522
+    ROC AUC: 0.9251
+    matrix:
+        [51, 9]
+        [8, 49]
+250:
+    accuracy: 0.9145
+    precision: 0.8852
+    recall: 0.9474
+    F1-score: 0.9153
+    ROC AUC: 0.9795
+    matrix:
+        [53, 7]
+        [3, 54]
+254:
+    accuracy: 0.7607
+    precision: 0.6790
+    recall: 0.9649
+    F1-score: 0.7971
+    ROC AUC: 0.9316
+    matrix:
+        [34, 26]
+        [2, 55]
+26:
+    accuracy: 0.9060
+    precision: 0.8833
+    recall: 0.9298
+    F1-score: 0.9060
+    ROC AUC: 0.9798
+    matrix:
+        [53, 7]
+        [4, 53]
+27:
+    accuracy: 0.8974
+    precision: 0.9091
+    recall: 0.8772
+    F1-score: 0.8929
+    ROC AUC: 0.9459
+    matrix:
+        [55, 5]
+        [7, 50]
+289:
+    accuracy: 0.9231
+    precision: 0.8871
+    recall: 0.9649
+    F1-score: 0.9244
+    ROC AUC: 0.9863
+    matrix:
+        [53, 7]
+        [2, 55]
+298:
+    accuracy: 0.8974
+    precision: 0.8571
+    recall: 0.9474
+    F1-score: 0.9000
+    ROC AUC: 0.9515
+    matrix:
+        [51, 9]
+        [3, 54]
+311:
+    accuracy: 0.8974
+    precision: 0.9091
+    recall: 0.8772
+    F1-score: 0.8929
+    ROC AUC: 0.9529
+    matrix:
+        [55, 5]
+        [7, 50]
+32:
+    accuracy: 0.9402
+    precision: 0.9464
+    recall: 0.9298
+    F1-score: 0.9381
+    ROC AUC: 0.9909
+    matrix:
+        [57, 3]
+        [4, 53]
+3240:
+    accuracy: 0.9060
+    precision: 0.8833
+    recall: 0.9298
+    F1-score: 0.9060
+    ROC AUC: 0.9599
+    matrix:
+        [53, 7]
+        [4, 53]
+39:
+    accuracy: 0.9573
+    precision: 0.9333
+    recall: 0.9825
+    F1-score: 0.9573
+    ROC AUC: 0.9690
+    matrix:
+        [56, 4]
+        [1, 56]
+40:
+    accuracy: 0.9316
+    precision: 0.9455
+    recall: 0.9123
+    F1-score: 0.9286
+    ROC AUC: 0.9795
+    matrix:
+        [57, 3]
+        [5, 52]
+4297:
+    accuracy: 0.9060
+    precision: 0.8710
+    recall: 0.9474
+    F1-score: 0.9076
+    ROC AUC: 0.9640
+    matrix:
+        [52, 8]
+        [3, 54]
+60:
+    accuracy: 0.9915
+    precision: 0.9828
+    recall: 1.0000
+    F1-score: 0.9913
+    ROC AUC: 1.0000
+    matrix:
+        [59, 1]
+        [0, 57]
+78:
+    accuracy: 0.8376
+    precision: 0.8519
+    recall: 0.8070
+    F1-score: 0.8288
+    ROC AUC: 0.9187
+    matrix:
+        [52, 8]
+        [11, 46]
+7800:
+    accuracy: 0.9829
+    precision: 1.0000
+    recall: 0.9649
+    F1-score: 0.9821
+    ROC AUC: 1.0000
+    matrix:
+        [60, 0]
+        [2, 55]
+83:
+    accuracy: 0.9658
+    precision: 0.9649
+    recall: 0.9649
+    F1-score: 0.9649
+    ROC AUC: 0.9880
+    matrix:
+        [58, 2]
+        [2, 55]
+87:
+    accuracy: 0.9658
+    precision: 0.9649
+    recall: 0.9649
+    F1-score: 0.9649
+    ROC AUC: 0.9924
+    matrix:
+        [58, 2]
+        [2, 55]
+

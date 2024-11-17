@@ -1,0 +1,228 @@
+summary: 
+    five num sum threshold: -106628.3109 | -505.5348 | -466.0897 | -425.3280 | -393.8129 | mean: -5779.3710
+    five num sum accuracy : 0.4957 | 0.6154 | 0.6923 | 0.7607 | 0.8376 | mean: 0.6868
+    five num sum precision: 0.4773 | 0.5932 | 0.6472 | 0.6753 | 0.7581 | mean: 0.6463
+    five num sum recall   : 0.3333 | 0.6798 | 0.7895 | 0.8947 | 1.0000 | mean: 0.7711
+    five num sum F1-score : 0.4158 | 0.6454 | 0.7172 | 0.7868 | 0.8571 | mean: 0.6960
+    five num sum ROC AUC  : 0.5664 | 0.6763 | 0.7791 | 0.8458 | 0.9863 | mean: 0.7822
+
+1069:
+    threshold: -520.9564
+    accuracy: 0.6154
+    precision: 0.5833
+    recall: 0.7368
+    F1-score: 0.6512
+    ROC AUC: 0.7289
+    matrix:
+        [30, 30]
+        [15, 42]
+
+19:
+    threshold: -671.7861
+    accuracy: 0.6239
+    precision: 0.5915
+    recall: 0.7368
+    F1-score: 0.6562
+    ROC AUC: 0.6626
+    matrix:
+        [31, 29]
+        [15, 42]
+
+201:
+    threshold: -475.6229
+    accuracy: 0.5812
+    precision: 0.6333
+    recall: 0.3333
+    F1-score: 0.4368
+    ROC AUC: 0.6649
+    matrix:
+        [49, 11]
+        [38, 19]
+
+250:
+    threshold: -501.8113
+    accuracy: 0.5983
+    precision: 0.5735
+    recall: 0.6842
+    F1-score: 0.624
+    ROC AUC: 0.6623
+    matrix:
+        [31, 29]
+        [18, 39]
+
+254:
+    threshold: -106628.3109
+    accuracy: 0.4957
+    precision: 0.4773
+    recall: 0.3684
+    F1-score: 0.4158
+    ROC AUC: 0.5664
+    matrix:
+        [37, 23]
+        [36, 21]
+
+26:
+    threshold: -443.1498
+    accuracy: 0.7009
+    precision: 0.641
+    recall: 0.8772
+    F1-score: 0.7407
+    ROC AUC: 0.8243
+    matrix:
+        [32, 28]
+        [7, 50]
+
+27:
+    threshold: -411.2646
+    accuracy: 0.7094
+    precision: 0.6533
+    recall: 0.8596
+    F1-score: 0.7424
+    ROC AUC: 0.8284
+    matrix:
+        [34, 26]
+        [8, 49]
+
+289:
+    threshold: -393.8129
+    accuracy: 0.7607
+    precision: 0.6706
+    recall: 1.0
+    F1-score: 0.8028
+    ROC AUC: 0.9863
+    matrix:
+        [32, 28]
+        [0, 57]
+
+298:
+    threshold: -501.0752
+    accuracy: 0.6581
+    precision: 0.6232
+    recall: 0.7544
+    F1-score: 0.6825
+    ROC AUC: 0.7368
+    matrix:
+        [34, 26]
+        [14, 43]
+
+311:
+    threshold: -426.3643
+    accuracy: 0.7436
+    precision: 0.6627
+    recall: 0.9649
+    F1-score: 0.7857
+    ROC AUC: 0.9357
+    matrix:
+        [32, 28]
+        [2, 55]
+
+32:
+    threshold: -422.2191
+    accuracy: 0.8205
+    precision: 0.75
+    recall: 0.9474
+    F1-score: 0.8372
+    ROC AUC: 0.8982
+    matrix:
+        [42, 18]
+        [3, 54]
+
+3240:
+    threshold: -516.7052
+    accuracy: 0.5897
+    precision: 0.5738
+    recall: 0.614
+    F1-score: 0.5932
+    ROC AUC: 0.6801
+    matrix:
+        [34, 26]
+        [22, 35]
+
+39:
+    threshold: -489.14
+    accuracy: 0.6838
+    precision: 0.6389
+    recall: 0.807
+    F1-score: 0.7132
+    ROC AUC: 0.7918
+    matrix:
+        [34, 26]
+        [11, 46]
+
+40:
+    threshold: -463.6585
+    accuracy: 0.7094
+    precision: 0.6769
+    recall: 0.7719
+    F1-score: 0.7213
+    ROC AUC: 0.7664
+    matrix:
+        [39, 21]
+        [13, 44]
+
+4297:
+    threshold: -436.4255
+    accuracy: 0.7692
+    precision: 0.7273
+    recall: 0.8421
+    F1-score: 0.7805
+    ROC AUC: 0.8281
+    matrix:
+        [42, 18]
+        [9, 48]
+
+60:
+    threshold: -434.3605
+    accuracy: 0.7863
+    precision: 0.7581
+    recall: 0.8246
+    F1-score: 0.7899
+    ROC AUC: 0.8257
+    matrix:
+        [45, 15]
+        [10, 47]
+
+78:
+    threshold: -468.5209
+    accuracy: 0.6752
+    precision: 0.6727
+    recall: 0.6491
+    F1-score: 0.6607
+    ROC AUC: 0.7231
+    matrix:
+        [42, 18]
+        [20, 37]
+
+7800:
+    threshold: -418.347
+    accuracy: 0.8376
+    precision: 0.75
+    recall: 1.0
+    F1-score: 0.8571
+    ROC AUC: 0.9281
+    matrix:
+        [41, 19]
+        [0, 57]
+
+83:
+    threshold: -554.6811
+    accuracy: 0.6154
+    precision: 0.5938
+    recall: 0.6667
+    F1-score: 0.6281
+    ROC AUC: 0.6459
+    matrix:
+        [34, 26]
+        [19, 38]
+
+87:
+    threshold: -409.2084
+    accuracy: 0.7607
+    precision: 0.6747
+    recall: 0.9825
+    F1-score: 0.8
+    ROC AUC: 0.9594
+    matrix:
+        [33, 27]
+        [1, 56]
+
