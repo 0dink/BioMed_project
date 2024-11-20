@@ -1,0 +1,6 @@
+percent different with pitch vs no pitch
+five num sum accuracy: 14.1225 | 2.0056 | 0.9562 | 1.6402 | 0.8723 | mean: 3.9194
+five num sum precision: -2.4529 | 2.3622 | 1.4545 | 1.5538 | 0.0000 | mean: 0.5835
+five num sum recall: 22.5777 | 4.5472 | 3.2238 | 7.7732 | 0.0000 | mean: 7.6244
+five num sum F1-score: 20.0273 | 2.2787 | 2.4298 | 1.8328 | 0.9353 | mean: 5.5008
+five num sum ROC AUC: 8.2696 | 0.9869 | 0.2609 | 0.7243 | 0.2607 | mean: 2.1005
