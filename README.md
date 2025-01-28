@@ -1,1 +1,1 @@
-My work for Biomedical signals class Fall of 2024
+The repository for the paper Investigation of Text-independent speaker verification by SVM-based ML approaches submited to e-Prime - Advances in Electrical Engineering, Electronics and Energy December 2024 
