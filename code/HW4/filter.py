@@ -84,14 +84,15 @@ def filter_and_snr(audio_signal, sample_rate):
 
     return(snr_estimated, snr_estimated_cleaned, denoised_audio_signal)
 
-
 def main():
     root_directory = r"C:\Computer Science Programs\Fall_2024\EE502_BioMed\project\data\LibriSpeech\train-clean-100"
     save_to_dir = r"C:\Computer Science Programs\Fall_2024\EE502_BioMed\project\data\cleaned"
     SAMPLE_RATE = 16000
 
-    x = 1  # Change this to the number of subfolders you want to limit to
+    x = 251  # Change this to the number of subfolders you want to limit to
     files_by_lowest_subfolder = get_filenames_by_lowest_subfolder(root_directory, x)
+
+    print(len(files_by_lowest_subfolder))
 
     for lowest_subfolder, files in files_by_lowest_subfolder.items():
         print(f"Lowest Subfolder: {lowest_subfolder}")
@@ -115,14 +116,14 @@ def main():
             denoised_file_paths.append(save_to)
             densoised_to_save.append(denoised_audio_signal)
             
-        print(f"saving subfolder: {lowest_subfolder}")
+        print(f"writing snr for: {lowest_subfolder}")
         
-        with open('../../data/output/snr_data.csv', mode='a', newline='') as file:
+        with open('../../data/output/snr_data_all.csv', mode='a', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(snr_data)
 
-        for save_to, denoised_audio_signal in zip(denoised_file_paths, densoised_to_save):
-            sf.write(save_to, np.asarray(denoised_audio_signal), SAMPLE_RATE)
+        # for save_to, denoised_audio_signal in zip(denoised_file_paths, densoised_to_save):
+        #     sf.write(save_to, np.asarray(denoised_audio_signal), SAMPLE_RATE)
 
 if __name__=="__main__":
     main()
